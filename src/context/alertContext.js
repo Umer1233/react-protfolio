@@ -6,7 +6,7 @@ export const AlertProvider = ({ children }) => {
   const [state, setState] = useState({
     isOpen: false,
     // Type can be either "success" or "error"
-    type: 'succes',
+    type: 'Sucess Completer',
     // Message to be displayed, can be any string
     message: '',
   });
